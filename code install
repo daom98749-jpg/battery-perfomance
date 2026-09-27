@@ -1,9 +1,9 @@
-:: Phát triển bởi VieX Studio
-:: TikTok: VieX Studio
-:: Discord: https://discord.gg/8NqDSMzYun
+:: Phát triển bởi Đào Minh
+:: TikTok: /home/shadow
+:: Discord: https://discord.com/channels/@me
 
 @echo off
-title VieX AOZ PowerPlan
+title VieX TECH POWERPLAND
 color 0B
 chcp 65001 >nul 2>&1
 setlocal enabledelayedexpansion
