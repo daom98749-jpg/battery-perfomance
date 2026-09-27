@@ -16,7 +16,7 @@ if %errorLevel% neq 0 (
     echo                         [ LỖI ]
     echo ==========================================================
     echo.
-    echo     VUI LÒNG CHẠY PHẦN MỀM BẰNG QUYỀN ADMINISTRATOR !
+    echo   ĐỊT CON MẸ CHẠY PHẦN MỀM BẰNG QUYỀN ADMINISTRATOR !
     echo     ^(Chuột phải vào file -^> Run as administrator^)
     echo.
     echo ==========================================================
@@ -45,7 +45,7 @@ echo                       [ MENU CHÍNH ]
 echo ==========================================================
 echo.
 echo   [1] Cài đặt ^& Kích hoạt AOZ PowerPlan
-echo   [2] Tối ưu Hệ thống Chuyên sâu (Kernel, BCD, Debloat)
+echo   [2] Tối ưu Hệ thống Chuyên sâu (Kernel, BCD, Debloat) BOOTS 1 TỈ FPS
 echo   [3] Khôi phục Tối ưu Hệ thống
 echo   [4] Sao lưu PowerPlan hiện tại (Tạo bản khôi phục)
 echo   [5] Khôi phục PowerPlan
