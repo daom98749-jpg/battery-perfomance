@@ -1,0 +1,52 @@
+Dưới đây là hướng dẫn chi tiết cách sử dụng đoạn mã lệnh (script) .bat tối ưu hệ thống và nguồn điện (VieX AOZ PowerPlan) do VieX Studio phát triển:
+
+Bước 1: Lưu đoạn mã thành file .bat
+Mở phần mềm Notepad trên máy tính của bạn.
+
+Sao chép toàn bộ đoạn mã bạn vừa gửi và dán vào Notepad.
+
+Nhấn File > Save As... (hoặc dùng tổ hợp phím Ctrl + Shift + S).
+
+Tại ô Save as type, hãy đổi thành All Files (.).
+
+Tại ô File name, đặt tên kèm phần mở rộng .bat ở cuối (ví dụ: aoz_powerplan.bat) rồi bấm Save.
+
+Bước 2: Chạy chương trình với quyền Quản trị viên (Administrator) [Bắt buộc]
+Do kịch bản này can thiệp vào các thiết lập cấp thấp của hệ thống (như quản lý nguồn điện, BCD, dịch vụ Windows), bạn phải chạy bằng quyền Admin:
+
+Click chuột phải vào file .bat vừa tạo chọn Run as administrator.
+
+Nếu xuất hiện bảng thông báo, nhấn Yes để cho phép chạy.
+
+Bước 3: Sử dụng các tính năng trong Menu Chính
+Khi giao diện hiện lên, bạn sẽ thấy menu chính gồm các tùy chọn từ [1] đến [6]. Nhấn phím tương ứng với số bạn muốn chọn:
+
+[1] Cài đặt & Kích hoạt AOZ PowerPlan:
+
+Tự động nhận diện thiết bị của bạn là Laptop hay Desktop PC để áp dụng mức tối ưu điện năng/hiệu năng phù hợp.
+
+Tạo gói quản lý nguồn tùy chỉnh chuyên sâu giúp giảm độ trễ (low latency) cho máy tính.
+
+[2] Tối ưu Hệ thống Chuyên sâu (Kernel, BCD, Debloat):
+
+Tinh chỉnh cấu hình khởi động (BCD) và bộ lập lịch đa phương tiện (MMCSS/Tasks/Games) nhằm tối ưu hóa FPS khi chơi game.
+
+Tắt các dịch vụ chạy ngầm không cần thiết gây tốn tài nguyên (SysMain, DiagTrack, dmwappushservice).
+
+Lưu ý: Sau khi dùng tính năng này, bạn nên khởi động lại máy để áp dụng hoàn toàn.
+
+[3] Khôi phục Tối ưu Hệ thống:
+
+Đưa các thiết lập Kernel, BCD và các dịch vụ Windows về trạng thái mặc định ban đầu nếu bạn không muốn dùng chế độ tối ưu nữa.
+
+[4] Sao lưu PowerPlan hiện tại:
+
+Lưu lại gói nguồn điện hiện tại của bạn thành một bản sao dự phòng an toàn trước khi chuyển sang cấu hình mới.
+
+[5] Khôi phục PowerPlan:
+
+Cho phép bạn chuyển đổi nhanh về bản sao lưu gần nhất hoặc đưa máy về chế độ mặc định của Windows (Balanced hoặc High Performance).
+
+[6] Thoát chương trình:
+
+Đóng cửa sổ lệnh. (Phần cuối sẽ hiển thị thông tin giới thiệu phiên bản nâng cấp của nhóm phát triển).
